@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* overflow: hidden; */
+  background-color: rgb(37, 32, 32);
+  color: rgb(211, 190, 214);
+}
+
+main {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4rem;
+}
+
+.content {
+  width: 50%;
+}
+
+.content p {
+  color: rgb(211, 190, 214);
+  line-height: 1.5;
+  margin: 1rem 0;
+  font-family: "Ubuntu", serif;
+  letter-spacing: 0.1rem;
+}
+
+.muiti-color {
+  font-family: "Ubuntu", serif;
+}
+
+.muiti-color span {
+  color: #c9935d;
+  text-shadow: 0 0 2px #c9935d;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+h1.muiti-color {
+  letter-spacing: 0.1rem;
+  font-size: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.intro {
+  margin: 1.2rem 0;
+}
+
+.img-container {
+  border-radius: 300px;
+  overflow: hidden;
+  box-shadow: 0px -1px 8px 2px rgba(219, 145, 145, 0.75);
+  -webkit-box-shadow: 0px -1px 8px 2px rgba(219, 145, 145, 0.75);
+  -moz-box-shadow: 0px -1px 8px 2px rgba(219, 145, 145, 0.75);
+}
+
+.img-container img {
+  width: 20rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.social-links a i {
+  font-size: 1.5rem;
+  color: #c9935d;
+}
+
+.social-links a i:hover {
+  color: #ada195;
+}
+
+.btn {
+  padding: 0 2rem;
+  background-color: rgb(211, 190, 214);
+  padding: 0.5rem 2rem;
+  display: inline-block;
+}
+
+.btn:link,
+.btn:visited {
+  color: #552d05;
+  text-decoration: none;
+  font-family: "Ubuntu", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(171, 134, 177);
+}
+
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+  .content {
+    width: 90%;
+    margin-top: 1.5rem;
+  }
+}
